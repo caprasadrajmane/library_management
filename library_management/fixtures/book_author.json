@@ -1,0 +1,47 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Book Author",
+  "first_name": "George",
+  "full_name": "George Orwell",
+  "last_name": "Orwell",
+  "modified": "2024-08-29 15:49:08.079730",
+  "name": "BA_2024_000042"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Book Author",
+  "first_name": "Herman",
+  "full_name": "Herman Melville",
+  "last_name": "Melville",
+  "modified": "2024-08-29 15:49:43.008411",
+  "name": "BA_2024_000045"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Book Author",
+  "first_name": "Jane",
+  "full_name": "Jane Austen",
+  "last_name": "Austen",
+  "modified": "2024-08-29 15:49:18.191035",
+  "name": "BA_2024_000043"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Book Author",
+  "first_name": "F. Scott",
+  "full_name": "F. Scott Fitzgerald",
+  "last_name": "Fitzgerald",
+  "modified": "2024-08-29 15:49:31.892926",
+  "name": "BA_2024_000044"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Book Author",
+  "first_name": "Harper",
+  "full_name": "Harper Lee",
+  "last_name": "Lee",
+  "modified": "2024-08-29 15:48:56.978630",
+  "name": "BA_2024_000041"
+ }
+]

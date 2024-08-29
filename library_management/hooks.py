@@ -14,7 +14,7 @@ app_license = "mit"
 # app_include_js = "/assets/library_management/js/library_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/library_management/css/library_management.css"
+# web_include_css = "/assets/library_management/css/main.css"
 # web_include_js = "/assets/library_management/js/library_management.js"
 
 # include custom scss in every website theme (without file extension ".scss")
@@ -133,23 +133,11 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"library_management.tasks.all"
-# 	],
-# 	"daily": [
-# 		"library_management.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"library_management.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"library_management.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"library_management.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+    "daily": [
+        "library_management.library_management.doctype.book_issue.book_issue.warn_accrued_income_exceed_limit"
+    ],
+}
 
 # Testing
 # -------
@@ -227,3 +215,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Book Author"},
+    {"dt": "Publication"},
+    {"dt": "Book"},
+    {"dt": "Library Member"},
+]

@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "creation": "2024-08-28 00:09:44.433132",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "book",
+  "isbn",
+  "author",
+  "publisher"
+ ],
+ "fields": [
+  {
+   "fieldname": "book",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Book",
+   "options": "Book",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "book.isbn",
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ISBN"
+  },
+  {
+   "fetch_from": "book.author",
+   "fieldname": "author",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Author",
+   "options": "Book Author"
+  },
+  {
+   "fetch_from": "book.publication",
+   "fieldname": "publisher",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Publisher",
+   "options": "Publication"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-28 00:10:06.316498",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Book Return Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-26 20:19:45.748462",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "library_settings_section",
+  "book_lending_charges_per_day",
+  "column_break_tbhv",
+  "maximum_outstanding_dues__member",
+  "section_break_hsbm",
+  "maximum_books_issue",
+  "column_break_vhrm",
+  "maximum_book_lending_days"
+ ],
+ "fields": [
+  {
+   "description": "Maximum amount per library member. Books will not be issued if outstanding is more than this amount.",
+   "fieldname": "maximum_outstanding_dues__member",
+   "fieldtype": "Float",
+   "label": "Maximum Outstanding Dues / Member"
+  },
+  {
+   "description": "Maximum number of books to be issued to the Library Member at the point of time.",
+   "fieldname": "maximum_books_issue",
+   "fieldtype": "Int",
+   "label": "Maximum Books to Issue"
+  },
+  {
+   "description": "Maximum book lending days. Books can not be issued for days more than this days.",
+   "fieldname": "maximum_book_lending_days",
+   "fieldtype": "Int",
+   "label": "Maximum Book Lending Days"
+  },
+  {
+   "fieldname": "column_break_tbhv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "library_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Library Settings"
+  },
+  {
+   "fieldname": "section_break_hsbm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vhrm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Default charges per day for lending a book.",
+   "fieldname": "book_lending_charges_per_day",
+   "fieldtype": "Float",
+   "label": "Book Lending Charges / Day"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-08-28 11:27:48.343698",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

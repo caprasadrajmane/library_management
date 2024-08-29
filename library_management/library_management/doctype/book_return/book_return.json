@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "autoname": "format:BR-{YYYY}-{MM}-{######}",
+ "creation": "2024-08-27 02:32:54.538129",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "book_issue_reference",
+  "section_break_bmjm",
+  "return_date",
+  "library_member",
+  "column_break_xiew",
+  "status",
+  "section_break_wcoz",
+  "book_details",
+  "section_break_jpxn",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_jpxn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Book Return",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "book_issue_reference",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Book Issue Reference",
+   "options": "Book Issue"
+  },
+  {
+   "fieldname": "section_break_bmjm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "return_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Return Date"
+  },
+  {
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Library Member",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "book_details",
+   "fieldtype": "Table",
+   "label": "Book Details",
+   "options": "Book Return Item"
+  },
+  {
+   "fieldname": "section_break_wcoz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xiew",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Invoice pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Invoice pending\nInvoiced"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Book Rent Invoice",
+   "link_fieldname": "book_return_reference"
+  }
+ ],
+ "modified": "2024-08-28 11:45:10.358582",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Book Return",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Red",
+   "title": "Invoice pending"
+  },
+  {
+   "color": "Green",
+   "title": "Invoiced"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "autoname": "format:PA-{YYYY}-{MM}-{######}",
+ "creation": "2024-08-27 02:55:45.053552",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "book_rent_invoice_reference",
+  "column_break_vitv",
+  "amount",
+  "section_break_gimd",
+  "date",
+  "library_member",
+  "mode_of_payment",
+  "section_break_e9aw",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_e9aw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Payment Advice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "book_rent_invoice_reference",
+   "fieldtype": "Link",
+   "label": "Book Rent Invoice Reference",
+   "options": "Book Rent Invoice"
+  },
+  {
+   "fieldname": "column_break_vitv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Amount",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_break_gimd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Library Member",
+   "options": "Library Member"
+  },
+  {
+   "default": "Cash",
+   "fieldname": "mode_of_payment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Mode of Payment",
+   "options": "Cash\nUPI Payment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-28 15:10:08.360161",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Payment Advice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

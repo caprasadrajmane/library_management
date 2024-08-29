@@ -1,0 +1,67 @@
+[
+ {
+  "contact_no": "+91-9876543210",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "john.doe@example.com",
+  "first_name": "John",
+  "full_name": "John Doe",
+  "last_name": "Doe",
+  "membership_request": null,
+  "modified": "2024-08-29 16:56:38.105259",
+  "name": "LM_2024_000051",
+  "user": null
+ },
+ {
+  "contact_no": "+91-9876543210",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "jane.smith@example.com",
+  "first_name": "Jane",
+  "full_name": "Jane Smith",
+  "last_name": "Smith",
+  "membership_request": null,
+  "modified": "2024-08-29 16:57:10.260913",
+  "name": "LM_2024_000052",
+  "user": null
+ },
+ {
+  "contact_no": "+91-9876543210",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "michael.johnson@example.com",
+  "first_name": "Michael",
+  "full_name": "Michael Johnson",
+  "last_name": "Johnson",
+  "membership_request": null,
+  "modified": "2024-08-29 16:57:34.040804",
+  "name": "LM_2024_000053",
+  "user": null
+ },
+ {
+  "contact_no": "+91-9876543210",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "emily.davis@example.com",
+  "first_name": "Emily",
+  "full_name": "Emily Davis",
+  "last_name": "Davis",
+  "membership_request": "",
+  "modified": "2024-08-29 16:58:48.141404",
+  "name": "LM_2024_000054",
+  "user": null
+ },
+ {
+  "contact_no": "+91-9876543210",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "william.brown@example.com",
+  "first_name": "William",
+  "full_name": "William Brown",
+  "last_name": "Brown",
+  "membership_request": null,
+  "modified": "2024-08-29 16:59:07.671756",
+  "name": "LM_2024_000055",
+  "user": null
+ }
+]

@@ -1,0 +1,15 @@
+{% extends "templates/web.html" %} {% block page_content %}
+
+<div class="py-4 mb-3">
+    <a href="../" class="py-2 bg-black rounded-md"> Back to books </a>
+</div>
+
+<h2 class="mt-0 mb-2">{{ title }}</h2>
+<h4 class="mt-0 mb-5">{{ author }}</h4>
+<p class="mb-5">{{ isbn }} | {{ publication }}</p>
+
+{% if description %}
+<p>{{ description }}</p>
+{% endif %} {% endblock %}
+
+<!-- this is a sample default web page template -->

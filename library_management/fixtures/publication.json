@@ -1,0 +1,37 @@
+[
+ {
+  "company_name": "Secker & Warburg",
+  "docstatus": 0,
+  "doctype": "Publication",
+  "modified": "2024-08-29 15:50:20.438181",
+  "name": "PB-00000047"
+ },
+ {
+  "company_name": "Harper & Brothers",
+  "docstatus": 0,
+  "doctype": "Publication",
+  "modified": "2024-08-29 15:50:55.100296",
+  "name": "PB-00000050"
+ },
+ {
+  "company_name": "J.B. Lippincott & Co",
+  "docstatus": 0,
+  "doctype": "Publication",
+  "modified": "2024-08-29 15:50:11.081428",
+  "name": "PB-00000046"
+ },
+ {
+  "company_name": "T. Egerton",
+  "docstatus": 0,
+  "doctype": "Publication",
+  "modified": "2024-08-29 15:50:28.760792",
+  "name": "PB-00000048"
+ },
+ {
+  "company_name": "Charles Scribner's Sons",
+  "docstatus": 0,
+  "doctype": "Publication",
+  "modified": "2024-08-29 15:50:42.001414",
+  "name": "PB-00000049"
+ }
+]

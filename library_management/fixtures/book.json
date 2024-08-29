@@ -1,0 +1,72 @@
+[
+ {
+  "author": "BA_2024_000041",
+  "description": "Set in the American South during the 1930s, this novel explores themes of racial injustice, moral growth, and compassion through the eyes of a young girl, Scout Finch.",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "is_published": 1,
+  "isbn": "978-0061120084",
+  "modified": "2024-08-29 15:56:33.348001",
+  "name": "to-kill-a-mockingbird",
+  "publication": "PB-00000046",
+  "route": "books/to-kill-a-mockingbird",
+  "title": "To Kill a Mockingbird"
+ },
+ {
+  "author": "BA_2024_000042",
+  "description": "A dystopian novel that delves into the dangers of totalitarianism, government surveillance, and the suppression of individual freedom.",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "is_published": 1,
+  "isbn": "978-0451524935",
+  "modified": "2024-08-29 15:57:10.382480",
+  "name": "1984",
+  "publication": "PB-00000047",
+  "route": "books/1984",
+  "title": "1984"
+ },
+ {
+  "author": "BA_2024_000043",
+  "description": "This classic novel portrays the romantic entanglements and social expectations of the British gentry in the early 19th century, focusing on the relationship between Elizabeth Bennet and Mr. Darcy.",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "is_published": 1,
+  "isbn": "978-0141439518",
+  "modified": "2024-08-29 15:59:24.566638",
+  "name": "pride-and-prejudice",
+  "publication": "PB-00000048",
+  "route": "books/pride-and-prejudice",
+  "title": "Pride and Prejudice"
+ },
+ {
+  "author": "BA_2024_000044",
+  "description": "A critique of the American Dream, this novel explores the life of the mysterious Jay Gatsby and his obsession with the beautiful Daisy Buchanan in the Roaring Twenties.",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "is_published": 1,
+  "isbn": "978-0743273565",
+  "modified": "2024-08-29 15:59:09.613471",
+  "name": "the-great-gatsby",
+  "publication": "PB-00000049",
+  "route": "books/the-great-gatsby",
+  "title": "The Great Gatsby"
+ },
+ {
+  "author": "BA_2024_000045",
+  "description": "An epic tale of obsession and revenge, this novel follows Captain Ahab’s relentless pursuit of the white whale, Moby-Dick, and examines themes of fate, free will, and humanity's place in the universe.",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "is_published": 1,
+  "isbn": "978-0142437247",
+  "modified": "2024-08-29 15:58:58.760194",
+  "name": "moby-dick",
+  "publication": "PB-00000050",
+  "route": "books/moby-dick",
+  "title": "Moby-Dick"
+ }
+]

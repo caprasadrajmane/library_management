@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "autoname": "format:BR-{YYYY}-{MM}-{######}",
+ "creation": "2024-08-27 02:34:02.351619",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "book_return_reference",
+  "column_break_gmts",
+  "status",
+  "section_break_akvm",
+  "invoice_date",
+  "library_member",
+  "section_break_yylj",
+  "items",
+  "total_amount",
+  "section_break_msjx",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_msjx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Book Rent Invoice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Book Rent Invoice Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "book_return_reference",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Book Return Reference",
+   "options": "Book Return"
+  },
+  {
+   "fieldname": "section_break_akvm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Invoice Date"
+  },
+  {
+   "columns": 2,
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Library Member",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "section_break_yylj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gmts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "default": "Unpaid",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Unpaid\nPaid"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total_amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Payment Advice",
+   "link_fieldname": "book_rent_invoice_reference"
+  }
+ ],
+ "modified": "2024-08-28 15:09:34.443414",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Book Rent Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Red",
+   "title": "Unpaid"
+  },
+  {
+   "color": "Green",
+   "title": "Paid"
+  }
+ ]
+}
